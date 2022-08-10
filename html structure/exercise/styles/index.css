@@ -1,0 +1,25 @@
+body {
+  font-family: Montserrat;
+}
+h1 { 
+  text-align: center;
+}
+
+p {
+  text-align: center;
+}
+
+p span {
+  text-decoration: underline;
+}
+
+p span:hover {
+  background-color: black;
+  color: white;
+  cursor: pointer;
+  transition: opacity 0.2s;
+}
+
+p span:active {
+  opacity: 0.5;
+}
