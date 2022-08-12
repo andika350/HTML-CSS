@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Challenge</title>
+    <style>
+
+      body {
+        font-family: Arial, Helvetica, sans-serif;
+      }
+
+      .a { 
+        width: 320px;
+      }
+
+      .first-input, .last-input {
+        width: 120px;
+        font-size: 15px;
+        border-radius: 10px;
+        border: 1px solid lightslategrey;
+        padding: 13px 20px 13px 15px;
+        margin-bottom: 10px;
+      }
+
+      .email-input {
+        display: block;
+        width: 280px;
+        font-size: 15px;
+        border-radius: 10px;
+        border: 1px solid lightslategrey;
+        padding: 13px 20px 13px 15px;
+        margin-bottom: 10px;
+      }
+
+      .sign-btn {
+        font-size: 20px;
+        background-color: rgb(54, 161, 228);
+        color: white;
+        font-weight: bold;
+        border: 1px solid;
+        border-radius: 7px;
+        padding:15px 120px;
+        cursor: pointer;
+      }
+
+      .sign-btn:hover {
+        opacity: 0.8;
+      }
+
+      .b {
+        margin-top: 100px;
+        width: 400px;
+      }
+
+      .big-text {
+        font-size: 30px;
+        font-weight: bold;
+      }
+
+      .pickup, .destination {
+        display:block;
+        margin-top: 7px;
+        margin-left: 3px;
+        background-color: rgb(233, 233, 233);
+        border:none;
+        padding: 10px 200px 10px 10px;
+      }
+
+      .destination {
+        margin-bottom: 25px;
+      }
+
+      .req-btn {
+        margin:10px 10px 5px 3px;
+        background-color: black;
+        color: white;
+        border: none;
+        padding: 12px 20px;
+        cursor: pointer;
+      }
+
+      .later-btn {
+        background-color: rgb(231, 228, 228);
+        color: black;
+        border: none;
+        padding: 12px 20px;
+        cursor: pointer;
+      }
+
+      .req-btn:hover, .later-btn:hover {
+        opacity: 0.8;
+      }
+
+    </style>
+  </head>
+  <body>
+
+    <div class="a">
+      <p>sign up form</p>
+      <input class="first-input" type="text" placeholder="First Name" />
+      <input class="last-input"  type="text" placeholder="Last Name" />
+      <input class="email-input" type="text" placeholder="Email" />
+      <button class="sign-btn">Sign Up</button>
+    </div>
+
+    <div class="b">
+      <p>uber form</p>
+      <p class="big-text">Request a ride now</p>
+      <input class="pickup" type="text" placeholder="Enter pickup location">
+      <input class="destination" type="text" placeholder="Enter destination">
+      <button class="req-btn">Request Now</button>
+      <button class="later-btn">Schedule for later</button>
+    </div>
+
+  </body>
+</html>
