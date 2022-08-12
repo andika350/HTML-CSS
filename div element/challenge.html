@@ -66,6 +66,7 @@
   height: 320px;
   box-shadow: 0px 0px 7px rgba(0, 0, 0, 0.4);
   margin:13px;
+  display: inline-block;
 }
 
 .username {
@@ -97,9 +98,42 @@
   opacity: 0.8;
 }
 
-.inline {
-  display: inline-flex;
+.c {
+  margin-top: 25px;
+  text-align: center;
 }
+
+  .c img {
+      margin-left: auto;
+      margin-right: auto;
+    }
+
+.search-bar {
+  text-align: center;
+}
+  .search-bar input {
+      margin-left: auto;
+      margin-right: auto;
+      margin-top: 13px;
+      padding: 10px 250px 10px 15px;
+      border: none;
+      border-radius: 15px;
+      box-shadow: 0 2px 4px rgba(0, 0, 0, 0.3);
+  }
+
+  .search-btn {
+    text-align: center;
+    margin-top: 35px;
+  }
+
+  .search-btn button {
+    padding: 10px;
+    margin-left: 10px;
+    border: none;
+    font-weight: bold;
+    cursor: pointer;
+  }
+
   </style>
 </head>
 <body>
@@ -144,7 +178,19 @@
     </div>
 
   </div>
-  
+
+
+  <div class="c">
+    <img src="thumbnails/google.png" alt="">
+  </div>
+
+  <div class="search-bar">
+    <input type="text" placeholder="Search Google or type a URL">
+  </div>
+
+  <div class="search-btn">
+    <button>Google Search</button> <button>I'm Feeling Lucky</button>
+  </div>
 
 </body>
 </html>
