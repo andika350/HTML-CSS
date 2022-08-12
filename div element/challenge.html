@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Div Challenge</title>
+
+  <style>
+
+    body {
+      font-family: Arial, Helvetica, sans-serif;
+    }
+
+    .twitter {
+  max-width: 390px;
+  margin-top: 50px;
+  box-shadow: 0px 0px 7px rgba(0, 0, 0, 0.4);
+  border-radius: 6px;
+  padding:10px;
+}
+
+.twitter img {
+ height: 50px;
+ width: 50px;
+ object-fit: cover;
+ border-radius: 50%;
+ vertical-align: middle;
+}
+
+.twit {
+  border:none;
+  font-size: 18px;
+  margin-left: 15px;
+  vertical-align: middle;
+}
+
+.tweet-btn {
+  background-color: rgb(6, 173, 250);
+  color: white;
+  font-size: 15px;
+  font-weight: bold;
+  border: none;
+  padding: 8px 15px 8px 15px;
+  border-radius: 25px;
+  vertical-align: middle;
+  cursor: pointer;
+}
+
+.tweet-btn:hover {
+  background-color: rgb(0, 92, 134);
+}
+
+.tweet-btn:active {
+  opacity: 0.5;
+}
+
+.card img {
+  width: 200px;
+  height: 200px;
+  object-fit: cover;
+}
+
+.card {
+  width: 200px;
+  height: 320px;
+  box-shadow: 0px 0px 7px rgba(0, 0, 0, 0.4);
+  margin:13px;
+}
+
+.username {
+  font-size: 18px;
+  font-weight: bold;
+  margin-top: 5px;
+  margin-left: 10px;
+  margin-bottom: 0;
+}
+
+.mutual {
+  color: darkgray;
+  margin-top: 5px;
+  margin-left: 10px;
+}
+
+.add-btn {
+  background-color: rgb(61, 143, 250);
+  color: white;
+  font-size: 15px;
+  padding: 12px;
+  margin-left: 10px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.add-btn:hover {
+  opacity: 0.8;
+}
+
+.inline {
+  display: inline-flex;
+}
+  </style>
+</head>
+<body>
+
+  <p>Twitter</p>
+  <div class="twitter">
+    <img src="thumbnails/cougar.webp" alt="">
+    <input type="text" class="twit" placeholder="What's happening?">
+    <button class="tweet-btn">Tweet</button>
+  </div>
+
+  <p>Creating Card</p>
+  <div class="card">
+    <img src="thumbnails/cougar.webp" alt="">
+    <p class="username">Oliver</p>
+    <p class="mutual">2 mutual friends</p>
+    <button class="add-btn">Add Friend</button>
+  </div>
+
+  <p>inline div</p>
+  <div class="inline">
+
+    <div class="card">
+      <img src="thumbnails/cougar.webp" alt="">
+      <p class="username">Oliver</p>
+      <p class="mutual">2 mutual friends</p>
+      <button class="add-btn">Add Friend</button>
+    </div>
+    
+    <div class="card">
+      <img src="thumbnails/lynx.webp" alt="">
+      <p class="username">Mimi</p>
+      <p class="mutual">3 mutual friends</p>
+      <button class="add-btn">Add Friend</button>
+    </div>
+
+    <div class="card">
+      <img src="thumbnails/caracal.jpg" alt="">
+      <p class="username">Rex</p>
+      <p class="mutual">4 mutual friends</p>
+      <button class="add-btn">Add Friend</button>
+    </div>
+
+  </div>
+  
+
+</body>
+</html>
