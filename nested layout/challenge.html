@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Nested Layout</title>
+  <style>
+
+    body {
+      font-family: Arial, Helvetica, sans-serif;
+    }
+
+    .container {
+      display: inline-block;
+      vertical-align: top;
+      margin-right: 15px;
+    }
+
+    .profile {
+      width: 200px;
+      box-shadow: 1px 2px 10px rgb(0,0,0,0.2);
+    }
+
+    .profile-picture{
+      height: 200px;
+      width: 200px;
+      object-fit: cover;
+      margin-bottom: 12px;
+    }
+
+    .profile p {
+      font-weight: bold;
+      margin-top: 5px;
+      margin-bottom: 8px;
+      margin-left: 8px;
+    }
+
+    .container-user {
+      margin-left: 8px;
+      margin-bottom: 10px;
+    }
+
+    .user-pic {
+     width: 40px;
+     height: 40px;
+     object-fit: cover;
+     display: inline-block;
+     vertical-align: middle;
+     border-radius: 50%;
+    }
+
+    .mutual {
+      display: inline-block;
+      vertical-align: middle;
+      color: rgb(100, 100, 100);
+    }
+
+    .add-btn {
+      background-color: rgb(44, 133, 216);
+      color: white;
+      font-size: 16px;
+      padding: 10px 15px 10px 15px;
+      margin-left: 10px;
+      margin-bottom: 10px;
+      border: none;
+      border-radius: 3px;
+      cursor: pointer;
+    }
+
+
+  </style>
+</head>
+<body>
+
+  <div class="container">
+
+    <div class="profile">
+      <img class="profile-picture" src="thumbnails/cougar.webp" alt="">
+      <p>Oliver</p>
+
+      <div class="container-user">
+        <img class="user-pic" src="thumbnails/koceng.jpg" alt="">
+        <p class="mutual">2 mutual friends</p>
+      </div>
+      
+      <button class="add-btn">Add Friend</button>
+    </div>
+
+
+  </div>
+
+  <div class="container">
+
+    <div class="profile">
+      <img class="profile-picture" src="thumbnails/lynx.webp" alt="">
+      <p>Oliver</p>
+
+      <div class="container-user">
+        <img class="user-pic" src="thumbnails/koceng.jpg" alt="">
+        <p class="mutual">3 mutual friends</p>
+      </div>
+      
+      <button class="add-btn">Add Friend</button>
+    </div>
+
+
+  </div>
+
+  <div class="container">
+
+    <div class="profile">
+      <img class="profile-picture" src="thumbnails/caracal.jpg" alt="">
+      <p>Oliver</p>
+
+      <div class="container-user">
+        <img class="user-pic" src="thumbnails/koceng.jpg" alt="">
+        <p class="mutual">4 mutual friends</p>
+      </div>
+      
+      <button class="add-btn">Add Friend</button>
+    </div>
+
+
+  </div>
+
+
+  
+</body>
+</html>
