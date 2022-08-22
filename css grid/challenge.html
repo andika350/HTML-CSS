@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Grid Challenge</title>
+
+  <style>
+
+    body {
+      font-family: Arial, Helvetica, sans-serif;
+    }
+
+    .card-grid {
+      display: grid;
+      grid-template-columns: 200px 200px 200px;
+      column-gap: 20px;
+    }
+
+    .card-grid p {
+      margin-left: 10px;
+    }
+
+    .name {
+      font-size: 20px;
+      font-weight: bold;
+      margin-top: 10px;
+      margin-bottom: 0;
+    }
+
+    .profile-card {
+      width: 200px;
+      box-shadow: 0px 0px 10px rgba(0,0,0,0.3);
+    }
+
+    .profile-card img {
+      width: 200px;
+      height: 200px;
+      object-fit: cover;
+    }
+
+    .mutual-grid {
+      display: grid;
+      grid-template-columns: 50px  1fr;
+      align-items: center;
+      color: rgb(100,100,100);
+    }
+
+    .mutual-grid img {
+      border-radius: 50%;
+      width: 40px;
+      height: 40px;
+      object-fit: cover;
+      margin-left: 10px;
+    }
+
+    .add-btn {
+      background-color: rgb(51, 136, 233);
+      color: white;
+      font-size: 15px;
+      font-weight: bold;
+      padding: 10px 20px 10px 20px;
+      border: none;
+      border-radius: 3px;
+      margin: 10px;
+      cursor: pointer;
+    }
+
+    .add-btn:hover {
+      opacity: 0.5;
+    }
+
+  </style>
+</head>
+<body>
+
+  <div class="card-grid">
+
+    <div class="profile-card">
+      <img src="thumbnails/caracal.jpg" alt="">
+      <p class="name">Oliver</p>
+      <div class="mutual-grid">
+        <img src="thumbnails/koceng.jpg" alt="">
+        <p>2 mutual friends</p>
+      </div>
+      <button class="add-btn">Add Friend</button>
+    </div>
+
+    <div class="profile-card">
+      <img src="thumbnails/cougar.webp" alt="">
+      <p class="name">Mimi</p>
+      <div class="mutual-grid">
+        <img src="thumbnails/koceng.jpg" alt="">
+        <p>5 mutual friends</p>
+      </div>
+      <button class="add-btn">Add Friend</button>
+    </div>
+
+    <div class="profile-card">
+      <img src="thumbnails/lynx.webp" alt="">
+      <p class="name">Rex</p>
+      <div class="mutual-grid">
+        <img src="thumbnails/koceng.jpg" alt="">
+        <p>4 mutual friends</p>
+      </div>
+      <button class="add-btn">Add Friend</button>
+    </div>
+
+
+
+  </div>
+  
+</body>
+</html>
