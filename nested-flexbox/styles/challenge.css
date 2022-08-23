@@ -1,0 +1,139 @@
+body {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.container-1 {
+  border: 1px solid gray;
+  border-radius: 10px;
+  width: 300px;
+}
+
+.align {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  padding: 6px 12px 6px 12px;
+}
+
+.title {
+  font-size: 20px;
+  margin: 0;
+}
+
+.numb {
+  background-color: rgb(62, 150, 250);
+  padding: 3px 10px 3px 10px;
+  border-radius: 20px;
+  font-size: 14px;
+  font-weight: bold;
+  color: white;
+  margin: 0;
+}
+
+.header {
+  height: 60px;
+  
+  background-color: rgb(178, 104, 247);
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.header p {
+  font-size: 20px;
+  font-weight: bold;
+  color: white;
+  margin-left: 20px;
+}
+
+.header input {
+  max-width: 500px;
+  height: 30px;
+  flex:1;
+  margin-left: 75px;
+  margin-right: 75px;
+  border: none;
+  border-radius: 15px;
+}
+
+.header input::placeholder {
+  padding-left: 15px;
+}
+
+.header button {
+  margin-right: 20px;
+  background-color: rgb(178, 104, 247);
+  color: white;
+  font-size: 18px;
+  font-weight: 600;
+  border: 1px solid white;
+  border-radius: 3px;
+  padding: 10px 20px 10px 20px;
+  cursor: pointer;
+}
+
+.header button:hover {
+  background-color: white;
+  color: rgb(178, 104, 247);
+}
+
+.container-2 {
+  border: 1px solid red;
+  width: 400px;
+}
+
+.container-2 p {
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+.profile {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  margin-top: 10px;
+  margin-bottom: 20px;
+}
+
+img {
+  width: 50px;
+  height: 50px;
+  object-fit: cover;
+  border-radius: 50%;
+  margin-right: 25px;
+  margin-left: 10px;
+}
+
+.info {
+  width: 200px;
+}
+
+.name {
+  font-weight: bold;
+}
+
+.handle {
+  color: gray;
+}
+
+.tag {
+  color: gray;
+}
+
+.follow-btn {
+  background-color: rgb(29, 155, 240);
+  color: white;
+  border: none;
+  font-size: 20px;
+  font-weight: bold;
+  padding: 10px 20px 10px 20px;
+  border-radius: 7px;
+  cursor: pointer;
+  justify-content: right;
+}
+
+.follow-btn:hover {
+  opacity: 0.5;
+}
