@@ -1,0 +1,76 @@
+body {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.tweet-container {
+  display: flex;
+  width: 450px;
+  margin-top: 50px;
+  margin-left: auto;
+  margin-right: auto;
+  padding-bottom: 10px;
+  box-shadow: 1px 2px 5px rgba(0,0,0, 0.2);
+}
+
+.profile-pic img{
+  height: 60px;
+  width: 60px;
+  object-fit: cover;
+  border-radius: 50%;
+  padding: 10px;
+}
+
+.tweet-content {
+  flex: 1;
+}
+
+.tweet-column {
+  margin-bottom: 5px;
+}
+
+.username {
+  font-weight: bold;
+  margin-bottom: 0;
+}
+
+.nick-handle {
+  font-weight: 500;
+  color: rgb(139, 139, 139);
+}
+
+.main-content {
+  margin-top: 6px;
+}
+
+.link-container {
+  display:flex;
+  width: 340px;
+  border-width: 1px;
+  border-style: solid;
+  border-color: rgb(200, 200, 200);
+  border-radius: 15px;
+  overflow: hidden;
+}
+
+.thumbnail{
+  width: 100px;
+  height: 100px;
+  background-color: rgb(220, 220, 220);
+  margin-right: 10px;
+  padding-bottom: 3px;
+}
+
+.link-preview {
+  flex:1;
+}
+
+.link-preview p {
+  margin: 0;
+}
+
+.link {
+  color: rgb(107, 106, 106);
+  font-weight: bold;
+  padding-top: 17px;
+  padding-bottom: 5px;
+}
