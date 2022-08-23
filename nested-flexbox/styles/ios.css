@@ -1,0 +1,62 @@
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  margin:0;
+  padding: 0;
+}
+
+.container-1 {
+  width: 500px;
+  border: 1px solid rgb(228, 226, 226);
+  border-radius: 5px;
+  box-shadow: 0px 0px 15px rgba(0,0,0, 0.15);
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 30px;
+  padding-left: 18px;
+}
+
+.user-picture {
+  height: 50px;
+  width: 50px;
+  object-fit: cover;
+  border-radius: 50%;
+  margin-top: 20px;
+  margin-right: 10px;
+  cursor: pointer;
+}
+
+.handle {
+  color: rgb(138, 138, 138);
+  margin-bottom: 20px;
+}
+
+.single-message-container {
+  display: flex;
+  flex-direction: row;
+  align-items: top;
+  justify-content: space-evenly;
+}
+
+.message-info {
+  line-height: 5px;
+  margin-bottom: 20px;
+  cursor: pointer;
+}
+
+.message-title {
+  font-weight: bold;
+  font-size: 20px;
+}
+
+.message-subject {
+  font-size: 18px;
+  font-weight: bold;
+}
+
+.message-content {
+  color: rgb(138, 138, 138);
+}
+
+.time {
+  color:rgb(138, 138, 138);
+}
