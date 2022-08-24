@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Discord Sidebar</title>
+  <style>
+
+    body {
+      font-family: Arial, Helvetica, sans-serif;
+      height: 2500px;
+      padding-left: 120px;
+    }
+
+    .sidebar {
+      position: fixed;
+      left: 0;
+      top: 0;
+      bottom: 0;
+      padding-top: 20px;
+      padding-left: 20px;
+      padding-right: 40px;
+      width: 50px;
+      background-color: black;
+    }
+
+    .sidebar img {
+      width: 70px;
+      height: 70px;
+      object-fit: cover;
+      border-radius: 50%;
+      margin-bottom: 5px;
+    }
+
+    .info-tab {
+      background-color: rgb(59, 59, 59);
+      position: fixed;
+      left: 110px;
+      top: 0;
+      bottom: 0;
+      width: 180px;
+      padding-left: 15px;
+    }
+
+    .info-tab img {
+      height: 20px;
+      width: 20px;
+      margin-right: 25px;
+    }
+
+    .info-header {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+    }
+
+    .info-header p {
+      color: white;
+      font-weight: bold;
+      font-size: 20px;
+    }
+
+    .info-tab {
+      font-size: 17px;
+      color: rgb(139, 138, 138);
+    }
+
+    .channels p {
+      margin-top: 0;
+    }
+
+  </style>
+</head>
+<body>
+
+  <div class="sidebar">
+
+    <img src="thumbnails/caracal.jpg" alt="">
+    <img src="thumbnails/cougar.webp" alt="">
+    <img src="thumbnails/lynx.webp" alt="">
+    
+  </div>
+
+  <div class="info-tab">
+
+    <div class="info-header">
+      <p>INFO</p>
+      <img src="icons/plus-icon.png" alt="">
+    </div>
+
+    <div class="channels">
+      <p># new-videos</p>
+    <p># updates</p>
+    <p># faq</p>
+    </div>
+    
+  </div>
+  
+</body>
+</html>
