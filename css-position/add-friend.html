@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Add Friend</title>
+  <style>
+
+    body {
+      height: 2500px;
+      font-family: Arial, Helvetica, sans-serif;
+    }
+
+    .container {
+      background-color: rgb(240, 240, 240);
+      position: fixed;
+      height: 70px;
+      top: 0;
+      left: 0;
+      right: 0;
+      display: flex;
+      justify-content: space-between;
+    }
+
+    .left-section {
+      display: flex;
+      align-items: center;
+    }
+
+    .profile-pic {
+      height: 50px;
+      width: 50px;
+      border-radius: 50%;
+      margin-left: 75px;
+      margin-right: 15px;
+    }
+
+    .username {
+      font-weight: bold;
+      margin-right: 5px;
+    }
+
+    .verified {
+      height: 30px;
+      width: 30px;
+    }
+
+    .right-section {
+      display: flex;
+      align-items: center;
+      margin-right: 75px;
+    }
+
+    .add-btn {
+      background-color: #1877f2;
+      color: white;
+      font-size: 15px;
+      font-weight: bold;
+      border: none;
+      width: 100px;
+      height: 35px;
+      border-radius: 5px;
+      margin-right: 8px;
+      cursor: pointer;
+    }
+
+    .add-btn:hover {
+      opacity: 0.8;
+    }
+
+    .message-btn {
+      background-color: #d5d7da;
+      font-size: 15px;
+      font-weight: bold;
+      border: none;
+      width: 100px;
+      height: 35px;
+      border-radius: 5px;
+      margin-right: 8px;
+      cursor: pointer;
+    }
+
+    .message-btn:hover {
+      background-color: black;
+      color: #d5d7da;
+    }
+
+  </style>
+</head>
+<body>
+
+  <div class="container">
+
+    <div class="left-section">
+      <img class="profile-pic" src="thumbnails/netflix.png" alt="">
+      <p class="username">Netflix Official</p>
+      <img class="verified" src="icons/verified.jpg" alt="">
+    </div>
+
+    <div class="right-section">
+      <button class="add-btn">Add Friend</button>
+      <button class="message-btn">Message</button>
+    </div>
+
+  </div>
+  
+</body>
+</html>
